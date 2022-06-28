@@ -66,26 +66,25 @@
   <summary>메인 화면</summary>
    <div markdown="1">       
      <br>
-     <img src="https://user-images.githubusercontent.com/37900424/167593556-48e70081-1a25-4d6f-b3bd-fad01060fce0.gif" width="740" height="412">
+     <img src="https://user-images.githubusercontent.com/43737828/176206016-5b189a74-254b-48c3-a052-3ab015767cb6.PNG" width="900" height="412">
      <br>
-     <text>⇒ 버터보이스의 홈화면으로 회원가입과 로그인을 할 수 있는 버튼이 있다</text>
    </div>
  </details>
 
  <details>
-    <summary><strong>1) 고객과 상담사를 위한 회원가입/로그인</strong></summary>
+    <summary><strong>1) 회원가입/회원정보 수정/로그인</strong></summary>
         <div markdown="1">  
-            <h3>📝 고객 회원가입</h3>
-            <img src="https://user-images.githubusercontent.com/37900424/167593951-40108fc2-5f0e-4de0-b47f-6e9158c8fcca.png" width="700" height="412">
-            <h3>📝 상담사 회원가입</h3>
-            <img src="https://user-images.githubusercontent.com/37900424/167594017-ef9d7933-2321-4f06-a0c1-425ab7595cb8.png" width="700" height="412">
+            <h3>📝 회원가입</h3>
+            <img src="https://user-images.githubusercontent.com/43737828/176204987-b576f6c7-5201-44ad-b070-bdfe686b865d.PNG" width="900" height="412">
+            <h3>📝 회원정보 수정</h3>
+            <img src="https://user-images.githubusercontent.com/43737828/176205512-34d05ef1-860d-4a12-b5f9-c35c476469cf.PNG" width="900" height="412">
             <h3>🔒 로그인</h3>
-            <img src="https://user-images.githubusercontent.com/37900424/167591490-5825df2d-db94-44b9-9918-3a948bda1072.png" width="700" height="412">
+            <img src="https://user-images.githubusercontent.com/43737828/176205029-d7c9436e-4ca9-457f-831a-9f2452cc1510.PNG" width="900" height="412">
         </div>
 </details>
  
  <details>
-  <summary><strong>2) 고객이 로그인 했을때 들어가는 고객 메인 페이지</strong></summary>
+  <summary><strong>2) 시스템소개 페이지</strong></summary>
    <div markdown="1"> 
     <br>      
      <img src="https://user-images.githubusercontent.com/37900424/167588687-ba52d2a5-bdc3-473b-a7ab-17808e5b9121.png" width="700" height="412">
@@ -95,36 +94,51 @@
  </details>
  
  <details>
-  <summary><strong>3) 고객이 상담사와 전화연결이 되었을때 나오는 페이지</strong></summary>
+  <summary><strong>3) 실시간 포트홀 확인 페이지</strong></summary>
    <div markdown="1">
      <br>      
-     <img src="https://user-images.githubusercontent.com/37900424/167588939-154dae7b-b6ee-4481-a3a6-9981936e87c6.png" width="700" height="412">
-     <img src="https://user-images.githubusercontent.com/37900424/167589023-d790e269-ddb8-499e-b900-0c6114a619b9.png" width="700" height="412">
+
+     <img src="https://user-images.githubusercontent.com/37900424/167589023-d790e269-ddb8-499e-b900-0c6114a619b9.png" width="900" height="412">
+       
+    ![KakaoTalk_20220629_003925295_01](https://user-images.githubusercontent.com/43737828/176222214-da90c4a1-40ed-4051-a5b9-f2d254b2301a.gif)
+
+       
      <br>
-      <text>⇒ 상담 시 안내 문구와 고객이 상담을 종료하고 싶으면 누르는 상담 종료버튼으로 구성</text>
+      <text>⇒ 해당 포트홀에 마우스 올리면 포트홀 사진 보여짐</text>
+      <text>⇒ 위도, 경도 입력해서 원하는 위치로 이동 가능</text>
    </div>
  </details>
  
  <details>
-  <summary><strong>4) 상담사와 상담이 종료된 후 상담사에 대한 별점을 줄 수 있는 기능</strong></summary>
+  <summary><strong>4) 신고 내역 페이지 </strong></summary>
    <div markdown="1">  
    <br>     
      <img src="https://user-images.githubusercontent.com/37900424/167589301-13a71d5b-9388-480b-bca0-68a7a83e73fc.png" width="700" height="412">
      <br>
-     <text>⇒ 상담사에 대한 별점을 1~5까지 줄 수 있다</text>
+     <text>⇒ 신고한 포트홀의 위치와 보수여부를 확인할 수 있다</text>
    </div>
  </details>
  
- <details>
-  <summary><strong>5) 상담사가 로그인했을 때 나오는 상담사 메인 페이지</strong></summary>
-   <div markdown="1">
-   <br>
-     <img src="https://user-images.githubusercontent.com/37900424/167589519-11745225-9cde-46b4-b0f6-ca0a83c50074.png" width="700" height="412">
-     <br>
-     <text>⇒ 상담사가 전화가 걸려온 순서대로 전화 대기자들을 확인 할 수 있다 </text>
-   </div>
- </details>
- 
+  <details>
+    <summary><strong>5) 공지사항 페이지</strong></summary>
+        <div markdown="1">  
+              
+            ![KakaoTalk_20220629_005613785](https://user-images.githubusercontent.com/43737828/176225962-438f109b-5824-4a3a-b5c9-9625052ddd3c.gif)
+
+            ![KakaoTalk_20220629_005613785_01](https://user-images.githubusercontent.com/43737828/176225974-b5be1157-b473-4ddc-bf62-5bf4909c9003.gif)
+
+        
+
+            
+            <h3>📝 공지사항</h3>
+            <img src="https://user-images.githubusercontent.com/43737828/176225910-f72b8b8b-18b0-4288-a80a-453844080d81.PNG" width="900" height="412">
+            <h3>📝 공지사항 글쓰기</h3>
+            <img src="https://user-images.githubusercontent.com/43737828/176205512-34d05ef1-860d-4a12-b5f9-c35c476469cf.PNG" width="900" height="412">
+            <h3>📝 공지사항 수정</h3>
+            <img src="https://user-images.githubusercontent.com/43737828/176205029-d7c9436e-4ca9-457f-831a-9f2452cc1510.PNG" width="900" height="412">
+        </div>
+</details>
+
  <details>
   <summary><strong>6) 상담사가 고객과 상담을 진행중에 나오는 페이지</strong></summary>
    <div markdown="1">  
@@ -152,7 +166,8 @@
  </details>
  <br>
 
- - `AI 주요 기능`
+
+ - `AI 기능`
  <details>
     <summary><strong>1) 화자의 음성을 기반으로 감정을 분석</strong></summary>
     <text>⇒ CNN 기반 전이 학습을 이용한 음성 감정 인식</text>
@@ -165,18 +180,6 @@
     <summary><strong>2) 감정 상태가 격양 되어있으면 듣기 편한 목소리로 변조</strong></summary>
     <text>⇒ Google의 gTTS 사용</text>
  </details>
- 
-  - `특별한 추가 기능`
- <details>
-    <summary><strong>1) WebRTC기반 P2P 상담 서비스</strong></summary>
-       <img src="https://user-images.githubusercontent.com/37900424/167592692-da61826c-1fc9-4bdb-b647-92d3e921fc0c.png" width="700" height="412"><br>
-    <text>⇒ 안정적인 WebRTC 기능을 통해 서비스 완성도 UP! </text>
- </details>
-  <details>
-    <summary><strong>2) Voice뿐만 아니라 화상 통화 가능</strong></summary>
-       <img src="https://user-images.githubusercontent.com/37900424/167592754-41d3a2a2-51a7-45fc-a87b-e49569f4c64e.png" width="700" height="412"><br>
-    <text>⇒ 고객의 얼굴을 마주하며 비언어적 소통이 가능</text>
- </details>
 
 <br>
 
@@ -185,6 +188,9 @@
 ## 3. 서비스 FLOW
   - `서비스 흐름도`
  ![SAFECITY서비스흐름도](https://user-images.githubusercontent.com/43737828/176195186-b7861433-3c54-422e-99d1-8a49d20564f4.PNG)
+
+<br>
+<br>
 
   - `유스케이스`
 ![유스케이스](https://user-images.githubusercontent.com/43737828/176195226-4ed17a51-e19f-4442-a88f-9d9dfc13cc6c.PNG)
@@ -212,17 +218,14 @@
 
   |JAVA|Spring|MySQL|
   |:---:|:---:|:---:|
-  |<img src="https://user-images.githubusercontent.com/43737828/176196626-e47ddb01-aa86-451b-8491-2a54d7172102.png" width="220" height="100">|
-  <img src="https://user-images.githubusercontent.com/43737828/176196688-5bc53f22-6fbe-4cf4-968a-f2b7166f6a1d.png" width="220" height="100">|
-  <img src="https://user-images.githubusercontent.com/68097036/151466853-2b56fd0f-3aa9-424e-b17b-1c7cd991ffbf.png" width="220" height="100">|
+  |<img src="https://user-images.githubusercontent.com/43737828/176196626-e47ddb01-aa86-451b-8491-2a54d7172102.png" width="220" height="100">|<img src="https://user-images.githubusercontent.com/43737828/176196688-5bc53f22-6fbe-4cf4-968a-f2b7166f6a1d.png" width="220" height="100">|<img src="https://user-images.githubusercontent.com/68097036/151466853-2b56fd0f-3aa9-424e-b17b-1c7cd991ffbf.png" width="220" height="100">|
 
 
 - `Etc`
 
   |zoom|GitHub|
   |:---:|:---:|
-  |<img src="https://user-images.githubusercontent.com/43737828/176196699-d0d30c28-5ce3-4bd1-8632-7d9be4c2a6d4.png" width="220" height="100">|
-  <img src="https://user-images.githubusercontent.com/68097036/151467910-0fda00cd-c08b-4869-a21e-a66d1d133ff5.png" width="220" height="100">|
+  |<img src="https://user-images.githubusercontent.com/43737828/176196699-d0d30c28-5ce3-4bd1-8632-7d9be4c2a6d4.png" width="220" height="100">|<img src="https://user-images.githubusercontent.com/68097036/151467910-0fda00cd-c08b-4869-a21e-a66d1d133ff5.png" width="220" height="100">|
 
 <br>
 
