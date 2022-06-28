@@ -13,17 +13,14 @@
 ## 목차
 [1. 개발 배경 및 목적](#1-개발-배경-및-목적)
 
-[2. 기능](#2-기능-및-UI/UX)
+[2. 기능](#-2-기능-및-UI/UX)
 
 [3. 서비스 FLOW](#3-서비스-FLOW)
 
-[4. 3 Tier Architecture](#4-3-Tier-Architecture)
+[4. DB 설계](#4-DB-설계)
 
-[5. DB 설계](#5-DB-설계)
+[5. 개발 환경](#5-개발-환경)
 
-[6. 개발 환경](#6-개발-환경)
-
-[7. 유저 가이드](#7-유저-)
 
 ***
 
@@ -62,7 +59,7 @@
   <summary>메인 화면</summary>
    <div markdown="1">       
      <br>
-     <img src="https://user-images.githubusercontent.com/43737828/176206016-5b189a74-254b-48c3-a052-3ab015767cb6.PNG" width="900" height="412">
+     <img src="https://user-images.githubusercontent.com/43737828/176206016-5b189a74-254b-48c3-a052-3ab015767cb6.PNG" width="740" height="412">
      <br>
    </div>
  </details>
@@ -71,82 +68,121 @@
     <summary><strong>1) 회원가입/회원정보 수정/로그인</strong></summary>
         <div markdown="1">  
             <h3>📝 회원가입</h3>
-            <img src="https://user-images.githubusercontent.com/43737828/176204987-b576f6c7-5201-44ad-b070-bdfe686b865d.PNG" width="900" height="412">
+            <img src="https://user-images.githubusercontent.com/43737828/176204987-b576f6c7-5201-44ad-b070-bdfe686b865d.PNG" width="740" height="412">
             <h3>📝 회원정보 수정</h3>
-            <img src="https://user-images.githubusercontent.com/43737828/176205512-34d05ef1-860d-4a12-b5f9-c35c476469cf.PNG" width="900" height="412">
+            <img src="https://user-images.githubusercontent.com/43737828/176205512-34d05ef1-860d-4a12-b5f9-c35c476469cf.PNG" width="740" height="412">
             <h3>🔒 로그인</h3>
-            <img src="https://user-images.githubusercontent.com/43737828/176205029-d7c9436e-4ca9-457f-831a-9f2452cc1510.PNG" width="900" height="412">
+            <img src="https://user-images.githubusercontent.com/43737828/176205029-d7c9436e-4ca9-457f-831a-9f2452cc1510.PNG" width="740" height="412">
         </div>
 </details>
- 
- <details>
-  <summary><strong>2) 시스템소개 페이지</strong></summary>
-   <div markdown="1"> 
-    <br>  
 
-     <img src="https://user-images.githubusercontent.com/43737828/176227092-ac74df96-a637-4efc-abf6-1eaa1a81af34.PNG" width="700" height="412">
+ <details>
+  <summary><strong>2) 시스템소개 페이지 </strong></summary>
+   <div markdown="1">  
+   <br>     
+     <img src="https://user-images.githubusercontent.com/43737828/176227092-ac74df96-a637-4efc-abf6-1eaa1a81af34.PNG" width="740" height="412">
      <br>
-  
+     <text>⇒ safe city의 시스템 소개를 확인할 수 있다.</text>
    </div>
  </details>
  
- <details>
+
+ 
+<details>
   <summary><strong>3) 실시간 포트홀 확인 페이지</strong></summary>
-   <div markdown="1">
-     <br>      
-
-     <img src="https://user-images.githubusercontent.com/37900424/167589023-d790e269-ddb8-499e-b900-0c6114a619b9.png" width="900" height="412">
-       
-    ![KakaoTalk_20220629_003925295_01](https://user-images.githubusercontent.com/43737828/176222214-da90c4a1-40ed-4051-a5b9-f2d254b2301a.gif)
-
-       
+   <div markdown="1">       
      <br>
-      <text>⇒ 해당 포트홀에 마우스 올리면 포트홀 사진 보여짐</text>
-      <text>⇒ 위도, 경도 입력해서 원하는 위치로 이동 가능</text>
+     <img src="https://user-images.githubusercontent.com/43737828/176234729-17cbef0f-41ff-4592-91d4-68e06f4accd7.gif" width="740" height="412">
+     <br>
+     <text>⇒ 해당 포트홀에 마우스 올리면 포트홀 사진 보여짐</text>
+       <br>
+     <text>⇒ 위도, 경도 입력시 해당 위치로 이동 가능</text>
    </div>
  </details>
  
  <details>
   <summary><strong>4) 신고 내역 페이지 </strong></summary>
    <div markdown="1">  
-   <br>     
-     <img src="https://user-images.githubusercontent.com/37900424/167589301-13a71d5b-9388-480b-bca0-68a7a83e73fc.png" width="700" height="412">
+   <br>      
+     <img src="https://user-images.githubusercontent.com/43737828/176235084-eac4f30d-2762-4b2d-8c80-ced1a58a6de0.jpg" width="740" height="412">  
      <br>
      <text>⇒ 신고한 포트홀의 위치와 보수여부를 확인할 수 있다</text>
+     <br>
+     <img src="https://user-images.githubusercontent.com/43737828/176236306-b2949d06-a65e-4c59-b36f-3435dc3c7d08.gif" width="740" height="412">  
+     <br>
+     <text>⇒ 보러가기 클릭 시 신고된 포트홀로 이동</text>
    </div>
  </details>
  
-  <details>
-    <summary><strong>5) 공지사항 페이지</strong></summary>
-        <div markdown="1">  
-              
-            ![KakaoTalk_20220629_005613785](https://user-images.githubusercontent.com/43737828/176225962-438f109b-5824-4a3a-b5c9-9625052ddd3c.gif)
-
-            ![KakaoTalk_20220629_005613785_01](https://user-images.githubusercontent.com/43737828/176225974-b5be1157-b473-4ddc-bf62-5bf4909c9003.gif)
-
-      
-            <h3>📝 공지사항</h3>
-            <img src="https://user-images.githubusercontent.com/43737828/176225910-f72b8b8b-18b0-4288-a80a-453844080d81.PNG" width="900" height="412">
-            <h3>📝 공지사항 글쓰기</h3>
-            <img src="https://user-images.githubusercontent.com/43737828/176205512-34d05ef1-860d-4a12-b5f9-c35c476469cf.PNG" width="900" height="412">
-            <h3>📝 공지사항 수정</h3>
-            <img src="https://user-images.githubusercontent.com/43737828/176205029-d7c9436e-4ca9-457f-831a-9f2452cc1510.PNG" width="900" height="412">
-        </div>
-</details>
 
 
+
+<details>
+  <summary><strong>5) 공지사항 페이지</strong></summary>
+   <div markdown="1">       
+     <br>
+     <h3>📝 공지사항</h3>
+     <img src="https://user-images.githubusercontent.com/43737828/176235763-6df013c2-1397-4972-bfb7-316f9f118881.PNG" width="740" height="412">
+      <h3>📝 공지사항 글쓰기</h3>
+     <img src="https://user-images.githubusercontent.com/43737828/176225962-438f109b-5824-4a3a-b5c9-9625052ddd3c.gif" width="740" height="412">
+       <br>
+     <text>⇒ 관리자로 로그인 시 공지사항 글쓰기 가능</text>
+      <h3>📝 공지사항 수정</h3>
+     <img src="https://user-images.githubusercontent.com/43737828/176225974-b5be1157-b473-4ddc-bf62-5bf4909c9003.gif" width="740" height="412">
+     <br>
+     <text>⇒ 관리자로 로그인 시 공지사항 수정 가능</text>
+       
+   </div>
+ </details>
  
  
  <br>
 
 
  - `AI 기능`
+<details>
+  <summary><strong> 1) 이미지 수집</strong></summary>
+  => crawling을 통해 포트홀 이미지 1000장 수집
+    <br>
+  => roboflow 오픈 데이터 665장 수집
+    <br>
+  => kaggle 오픈 데이터 643장 수집
+</details>
 
-<strong>1) crawling을 통해 이미지 수집</strong>
-<br>
-<strong>2) roboflow를 통해 이미지 라벨링</strong>
-<br>
-<strong>3) YOLO V5포트홀 모델 구축</strong>
+<details>
+  <summary><strong> 2) 이미지 라벨링</strong></summary>
+  => roboflow를 통해 이미지 라벨링
+</details>
+
+<details>
+  <summary><strong> 3) YOLOV5 모델 구축</strong></summary>
+  => crawling과 roboflow 오픈데이터로 학습 -> 정확도 68%
+    <br>
+  => 데이터 전처리 후 학습 -> 정확도 75%
+    <br>
+  => 이미지 증식 -> 정확도 86%
+</details>
+
+<details>
+  <summary><strong> 4) 딥러닝 시행착오</strong></summary>
+    <h3>문제점</h3>
+    <img src="https://user-images.githubusercontent.com/43737828/176242811-f70902fa-dcc6-4538-81ad-d6cb69b854c8.png" width="370" height="206">
+    <img src="https://user-images.githubusercontent.com/43737828/176242821-d7635e24-e4c9-4c1e-a944-76f0d93b007c.png" width="370" height="206">
+    <br>
+    => 포트홀 인식률 저조 및 도로가 아닌 곳에서 오인식
+    <br><br>
+    <h3>원인</h3>
+    <img src="https://user-images.githubusercontent.com/43737828/176244020-9ffce92d-0e13-4980-93bb-dfd0de1257d3.png" width="370" height="206">
+    <img src="https://user-images.githubusercontent.com/43737828/176244036-71665082-38b1-4346-96bf-256ee37c022b.png" width="370" height="206">
+    <br>
+    => 학습 이미지와 블랙박스 구도가 다름
+    <br><br>
+    <h3>개선</h3>
+    <img src="https://user-images.githubusercontent.com/43737828/176244197-0a872047-6c02-454c-95f8-5355db973df2.png" width="370" height="206">
+    <img src="https://user-images.githubusercontent.com/43737828/176244222-e85d5a1f-55b5-4c23-9a70-76d27d367812.png" width="370" height="206">
+    <br>
+    => kaggle에서 블랙박스 구도 이미지 다시 수집
+</details>
 
 
 <br>
@@ -202,4 +238,4 @@
 
 <br><br><br>
 <br><br><br>
-###### Readme 템플릿 참고 : 전남/전북1반 안지예
+###### Readme 템플릿 참고 : KT AIVLE SCHOOL 1기 전남/전북1반 안지예
