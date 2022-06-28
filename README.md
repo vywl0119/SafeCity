@@ -124,9 +124,7 @@
 
             ![KakaoTalk_20220629_005613785_01](https://user-images.githubusercontent.com/43737828/176225974-b5be1157-b473-4ddc-bf62-5bf4909c9003.gif)
 
-        
-
-            
+      
             <h3>📝 공지사항</h3>
             <img src="https://user-images.githubusercontent.com/43737828/176225910-f72b8b8b-18b0-4288-a80a-453844080d81.PNG" width="900" height="412">
             <h3>📝 공지사항 글쓰기</h3>
@@ -136,47 +134,20 @@
         </div>
 </details>
 
- <details>
-  <summary><strong>6) 상담사가 고객과 상담을 진행중에 나오는 페이지</strong></summary>
-   <div markdown="1">  
-     <br>
-     <img src="https://user-images.githubusercontent.com/37900424/167589639-1e2351da-8657-4d84-8f31-a9cc0c664234.png" width="700" height="412">
-     <br>
-     <text>⇒ 고객 상담 메뉴얼, 고객의 기본 정보, 고객과 상담시 적는 상담내용 글쓰기 및 수정 부분으로 이루어져있다</text>
-     <br>
-   </div>
- </details>
+
  
- <details>
-  <summary><strong>7) 관리자가 회원으로 등록된 고객과 상담사의 정보를 확인할 수 있는 게시판</strong></summary>
-   <div markdown="1">    
-      <h3>📝 전체 게시판</h3>
-     <img src="https://user-images.githubusercontent.com/37900424/167589721-b4aa89c8-0842-4c89-9b96-00a3b9316b87.png" width="700" height="412">
-     <br>
-      <h3>👩🏻‍🏫 상담사 상세정보</h3>
-        <img src="https://user-images.githubusercontent.com/37900424/167589786-ace9eba8-8e97-493f-9fa2-0da5ef66123d.png" width="700" height="412">    
-       <h3>👩🏻 고객 상세정보</h3>
-        <img src="https://user-images.githubusercontent.com/37900424/167589851-887aecff-4490-436a-918f-97acf01d563a.png" width="700" height="412">
-     <br>
-     <text>⇒ 고객정보게시판/상담사정보게시판으로 이루어져있다. 고객상세정보페이지에서는 고객의 상담내용에 대해 수정 및 삭제가 가능하다</text>
-   </div>
- </details>
+ 
  <br>
 
 
  - `AI 기능`
- <details>
-    <summary><strong>1) 화자의 음성을 기반으로 감정을 분석</strong></summary>
-    <text>⇒ CNN 기반 전이 학습을 이용한 음성 감정 인식</text>
- </details>
-  <details>
-    <summary><strong>3) 화자의 언어 중에서 욕설이 있으면 필터링</strong></summary>
-    <text>⇒ STT + 욕설 필터링</text>
- </details>
-  <details>
-    <summary><strong>2) 감정 상태가 격양 되어있으면 듣기 편한 목소리로 변조</strong></summary>
-    <text>⇒ Google의 gTTS 사용</text>
- </details>
+
+<strong>1) crawling을 통해 이미지 수집</strong>
+<br>
+<strong>2) roboflow를 통해 이미지 라벨링</strong>
+<br>
+<strong>3) YOLO V5포트홀 모델 구축</strong>
+
 
 <br>
 
