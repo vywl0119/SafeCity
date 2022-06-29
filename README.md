@@ -21,6 +21,8 @@
 
 [5. 개발 환경](#5-개발-환경)
 
+[6. 시연 영상](#6-시연-영상)
+
 
 ***
 
@@ -234,7 +236,8 @@
 <br>
 
 <br>
-
+## 6. 시연 영상
+https://www.youtube.com/watch?v=XO2qX5c8dBg&t=2s
 
 <br><br><br>
 <br><br><br>
