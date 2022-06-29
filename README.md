@@ -234,8 +234,8 @@
   |<img src="https://user-images.githubusercontent.com/43737828/176196699-d0d30c28-5ce3-4bd1-8632-7d9be4c2a6d4.png" width="200" height="130">|<img src="https://user-images.githubusercontent.com/68097036/151467910-0fda00cd-c08b-4869-a21e-a66d1d133ff5.png" width="200" height="130">|
 
 <br>
-
 <br>
+
 ## 6. 시연 영상
 https://www.youtube.com/watch?v=XO2qX5c8dBg&t=2s
 
