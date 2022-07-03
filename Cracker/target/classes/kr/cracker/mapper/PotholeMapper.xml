@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="kr.cracker.mapper.PotholeMapper">
+    
+    <select id="my_potholeY" resultType="kr.cracker.mapper.PotholeVO" parameterType="String">
+        select * from pothole where mb_id = #{mb_id} and pt_yn = 'Y'
+    </select>
+    
+    <select id="my_potholeN" resultType="kr.cracker.mapper.PotholeVO" parameterType="String">
+        select * from pothole where mb_id = #{mb_id} and pt_yn = 'N'
+    </select>
+    
+    <select id="all_pothole" resultType="kr.cracker.mapper.PotholeVO" >
+        select * from pothole 
+    </select>
+    
+    <select id="pothole_n" resultType="kr.cracker.mapper.PotholeVO" >
+        select * from pothole where pt_yn = 'N'
+    </select>
+    
+    <select id="pothole_y" resultType="kr.cracker.mapper.PotholeVO" >
+        select * from pothole where pt_yn = 'Y'
+    </select>
+    
+    <select id="map_pothole" resultType="kr.cracker.mapper.PotholeVO" parameterType="int" >
+        select pt_latitude,pt_longitude from pothole where pt_seq = #{pt_seq} and pt_yn = 'N'
+    </select>
+    
+    <select id="pt_latitude" resultType="double" parameterType="int" >
+        select pt_latitude from pothole where pt_seq = #{pt_seq}
+    </select>
+    
+    <select id="pt_longitude" resultType="double" parameterType="int" >
+        select pt_longitude from pothole where pt_seq = #{pt_seq}
+    </select>
+    
+    
+    <update id="pothole_yn" parameterType="int">
+        update pothole set pt_yn = 'Y' where pt_seq = #{pt_seq}
+    </update>
+    
+    <select id="pt_video" resultType="String" >
+        select pt_video from pothole order by pt_seq desc limit 1
+    </select>
+    
+
+    
+    
+</mapper>

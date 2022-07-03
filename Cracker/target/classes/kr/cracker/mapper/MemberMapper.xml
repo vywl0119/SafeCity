@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="kr.cracker.mapper.MemberMapper">
+    
+    <insert id="Join" parameterType="kr.cracker.mapper.MemberVO">
+        insert into members(mb_id, mb_pw, mb_name, mb_phone, serial_number, admin_yn) 
+        values(#{mb_id}, #{mb_pw}, #{mb_name}, #{mb_phone}, #{serial_number}, #{admin_yn} )
+    </insert>
+    
+    <select id="login" resultType="kr.cracker.mapper.MemberVO" parameterType="kr.cracker.mapper.MemberVO">
+        select * from members where mb_id = #{mb_id} and mb_pw = #{mb_pw}
+    </select>
+
+    <update id="edit" parameterType="kr.cracker.mapper.MemberVO" >
+        update members set  mb_pw = #{mb_pw}, mb_phone = #{mb_phone}, serial_number = #{serial_number} where mb_id = #{mb_id}
+    </update>
+    
+    <select id="users" resultType="kr.cracker.mapper.MemberVO" >
+        select * from members
+    </select>
+    
+    <select id="update_ptcnt"  parameterType="String">
+        update members set pt_cnt = ( select count(*) 
+										from pothole 
+										where mb_id = #{mb_id})
+						where mb_id = #{mb_id}
+    </select>
+
+</mapper>
